@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;600&display=swap" rel="stylesheet">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Jokenpô</h1>
+
+        <div class="emoji">
+        <button id="pedra" onclick="clickHumano(`pedra`)">&#x1FAA8 </button>
+        <button id="papel" onclick="clickHumano(`papel`)">&#x1F9FE</button>
+        <button id="tesoura" onclick="clickHumano(`tesoura`)">&#x2702 </button>
+        </div>
+
+        <p class="resultado"></p>
+
+        <p class="pontuaçao">Sua pontuaçao: <span id="sua-pontuacao">0</span> </p>
+        <p class="pontuaçao">Pontuaçao Maquina: <span id="pontuaçao-maquina">0</span></p>
+
+        <h2>Regras</h2>
+        <div class="regras">
+        <p>Pedra: &#x2705 Tesoura e &#x274C Papel </p>
+        <p>Papel: &#x2705 Pedra e &#x274C Tesoura</p>
+        <p>Tesoura: &#x2705 Papel e &#x274C Pedra</p>
+        </div>
+
+    </div>
+</body>
+</html>
