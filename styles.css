@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(https://picsum.photos/1920/1080?random);
+    background-image: url(https://picsum.photos/1920/1080?random);//Gera uma imagem aleatoria cada vez que a pagina e recarregada
     background-size: cover;
     background-position: center;
     display: flex;
