@@ -25,8 +25,8 @@
   <li>Os resultados tera cores diferentes, e somará pontos quando você ganhar ou perder</li>
 </ol>
 <h2>📸 Imagem do Jogo</h2>
-<img src="">
+<img src="./assets/image.png">
 <h2>🌐 Link do Jogo</h2>
 <ul>
-  <li></li>
+  <li>https://arthurferreirateixeira.github.io/Jokenpo/</li>
 </ul>
